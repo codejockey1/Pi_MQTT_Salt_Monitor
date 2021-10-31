@@ -1,6 +1,8 @@
 # Pi_MQTT_Softener_Sensor
 <img width=400px src="https://1.bp.blogspot.com/-F2rXYfAIOEc/YX7KNLvLqzI/AAAAAAADJnM/aOAcIuVaH1o9GbwqdOzH94Dmtd5BpjLrwCLcBGAsYHQ/s2543/20211029_233734.jpg">
 
+Check out my blog post that describes how to build this project and how I designed it. https://codejockeyscorner.blogspot.com/2021/10/raspberry-pi-mqtt-water-softener-salt.html
+
 ## Install Dependencies
 More information here: http://www.steves-internet-guide.com/into-mqtt-python-client/
 ```
