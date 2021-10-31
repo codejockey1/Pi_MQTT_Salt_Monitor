@@ -20,5 +20,3 @@ mqttPassword = "<% MQTT_PASSWORD %>"
 ```
 python salt_monitor.py
 ```
-
-## Run script at startup
