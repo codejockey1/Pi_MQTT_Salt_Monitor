@@ -15,6 +15,8 @@ client = mqtt.Client("Pi_MQTT_Softener_Sensor") # name is used by the MQTT broke
 #sensor constants
 TRIG = 23
 ECHO = 24
+
+#measurements constants
 TANK_EMPTY_DISTANCE = 31 #inches
 TANK_FULL_DISTANCE = 6 #inches
 TANK_LOW_WATERMARK_DISTANCE = 25 #inches
