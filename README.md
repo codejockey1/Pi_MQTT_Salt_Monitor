@@ -8,12 +8,27 @@ pip install paho-mqtt
 ```
 
 ## Update script with MQTT host, user, and password
-Update the following values in salt_monitor.py to meet your needs.
+Update the following MQTT configuration values:
 ```yaml
+#MQTT constants
 mqttBroker = "<% MQTT_HOST %>"
 mqttTopic = "home/pi/softener"
 mqttUser = "homeassistant"
 mqttPassword = "<% MQTT_PASSWORD %>"
+```
+Update the sensor pins to match how you wired your sensor
+```yaml
+#sensor constants
+TRIG = 23
+ECHO = 24
+```
+
+Update the following distances to match your specific brine tank measurements
+```yaml
+#measurements constants
+TANK_EMPTY_DISTANCE = 31 #inches
+TANK_FULL_DISTANCE = 6 #inches
+TANK_LOW_WATERMARK_DISTANCE = 25 #inches
 ```
 
 ## Run script
